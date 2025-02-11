@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.font-jost {
+  font-family: "Jost", serif;
+}
+.menu-btn {
+  display: block;
+  background-color: #007bff; /* Fixed color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.menu-btn:active,
+.menu-btn:focus {
+  background-color: #007bff !important; /* Prevent color change */
+  outline: none;
+  box-shadow: none;
+}
+
+/* Widths */
+.max-w-1760 {
+  max-width: 1760px;
+}
+.max-w-273 {
+  max-width: 273.42px;
+}
+.max-w-547 {
+  max-width: 547px;
+}
+
+/* Heights */
+.h-80 {
+  height: 80px;
+}
+
+/* Gaps */
+.gap-50 {
+  gap: 50px;
+}
+
+/* Margins and Paddings */
+.mt-20 {
+  margin-top: 20px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.text-color > a {
+  color: #41546b;
+}
+
+.lh-100 {
+  line-height: 100%;
+}
+.anchor {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+.header_div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg-img {
+  background-image: url("../img/png/pexels-pixabay-260922\ 1.png");
+  height: 100vh;
+}
+
+.book-section {
+  max-width: 950px;
+}
+
+header {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Main section */
+.justify-around {
+  justify-content: space-around;
+}
+
+.bg-wheat {
+  background-color: #f5f5dc;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+button {
+  transition: ease 0.3s;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #51546c;
+  scale: 1.05;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1760px !important;
+  }
+}
+
+.section-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ml {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+.menu-btn {
+  display: none;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.calling-div {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.calling-div img {
+  margin-right: 10px;
+}
+
+marquee {
+  font-size: 1.25rem;
+  padding: 15px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-description {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #666;
+}
+
+.btn-book-now {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  float: right;
+}
+
+.vehicle-section {
+  margin-bottom: 80px;
+  padding: 40px;
+  background-color: #add8e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.vehicle-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.vehicle-section p {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.vehicle-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+  margin-top: 80px;
+  text-align: center;
+}
+
+footer .text-decoration-none {
+  text-decoration: none;
+  color: white;
+}
+
+footer .text-decoration-none:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+footer .social-icons {
+  margin-top: 20px;
+}
+
+footer .social-icons img {
+  width: 35px;
+  margin: 0 10px;
+}
+/* Responsive Adjustments */
+@media (max-width: 1400px) {
+  .img-pricahan {
+    width: 20%;
+  }
+}
+@media (max-width: 1199.9px) {
+  .header_div {
+    gap: 40px;
+  }
+  .anchor > a {
+    font-size: medium;
+  }
+  .img-pricahan {
+    width: 20%;
+  }
+  .anchor {
+    display: none;
+  }
+
+  /* Show menu button */
+  .menu-btn {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+  }
+
+  /* Mobile menu styles */
+  .mobile-menu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    margin-top: 30px;
+  }
+
+  .mobile-menu a {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+  }
+
+  .mobile-menu.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 980px) {
+  .editor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .editor > img {
+    width: 100%;
+  }
+  .responsive {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-pricahan {
+    width: 20%;
+  }
+  .header_div {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+  }
+  .anchor > a {
+    font-size: small;
+    gap: 10px;
+  }
+  .vehicle-section {
+    padding: 30px;
+  }
+}
+.m-btn {
+  display: none;
+}
+@media (max-width: 767.9px) {
+  .menu-btn {
+    display: block;
+  }
+  .btn-book-now {
+    float: left;
+  }
+  .upi_id {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .img-cr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  /* Hide normal navigation */
+
+  /* Reduce opacity for other content when menu is open */
+
+  /* .blur-effect {
+    opacity: 0.3;
+    pointer-events: none;
+  } */
+}
